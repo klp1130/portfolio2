@@ -1,7 +1,7 @@
 import './Footer.css'
 
 const Footer = () => (
-    <footer className='footer'>
+    <footer>
         <a href='https://github.com/klp1130/portfolio2'
         className='footer_link'
         >

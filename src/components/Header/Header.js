@@ -8,10 +8,10 @@ const Header = () => {
 
 
     return (
-        <header className='header center'>
+        <header>
             <h3>
                 {homepage ? 
-                (<a href={homepage} className='link'>{title}</a>) :
+                (<a href={homepage}>{title}</a>) :
                 (title)}
             </h3>
 
