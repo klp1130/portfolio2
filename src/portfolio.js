@@ -15,4 +15,9 @@ const about = {
     }
 }
 
-export { header, about }
+const contact = {
+    email: 'keenan.leepeters@gmail.com'
+
+}
+
+export { header, about, contact }
