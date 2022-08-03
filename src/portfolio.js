@@ -15,6 +15,46 @@ const about = {
     }
 }
 
+const projects = [
+   
+    {
+        name: 'BrualNotes', 
+        description:
+            'I took some established speech recognition code written in vanilla Javascript and expanded its functionality by refactoring it into a react app, setting up a JSON database for storage of the notes and added styling. The style is influenced by the current design trend of neubrutalism (hence brutal notes). This style is used by companies like Gumroad.com Figma and MongoDB.',
+        stack: ['React'],
+        sourceCode: 'https://github.com/klp1130/brutalnotes',
+        livePreview: 'https://klp1130.github.io/brutalnotes/'
+            
+    },
+    {
+        name: 'Stripe Navigation', 
+        description:
+            'This project explores the floating div nature of the stripe.com navigation bar',
+        stack: ['JavaScript'],
+        sourceCode: 'https://github.com/klp1130/Stripe_Nav',
+        livePreview: 'https://klp1130.github.io/Stripe_Nav/'
+            
+    },
+    {
+        name: 'Crud Hooks', 
+        description:
+            'A CRUD project using react hooks, UseState with minimalist styling.',
+        stack: ['React'],
+        sourceCode: 'https://github.com/klp1130/Crud_Hooks',
+        livePreview: 'https://klp1130.github.io/Crud_Hooks/'
+            
+    },
+    {
+        name: 'Mayukha Wellness', 
+        description:
+            'A wellness website designed for a client starting a new business. Designed logo in iterative collaboration with client using Figma and Illustrator. Used a CMS so client can add and remove features.',
+        stack: ['Figma', 'Illustrator', 'CMS'],
+        sourceCode: '',
+        livePreview: 'https://www.mayukhawellness.com/'
+            
+    }    
+]
+
 const contact = {
     email: 'keenan.leepeters@gmail.com'
 
