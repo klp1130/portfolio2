@@ -1,7 +1,6 @@
 import uniqid from 'uniqid'
 import GitHubIcon from '@mui/icons-material/GitHub'
-import LaunchIcon from '@mui/icons-material/Launch'
-
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 const ProjectContainer = ({ project }) => (
     <div className='project'>
         <h3>{project.name}</h3>
@@ -25,7 +24,7 @@ const ProjectContainer = ({ project }) => (
 
         {project.livePreview && (
             <a href={project.livePreview}>
-            <LaunchIcon />
+            <RocketLaunchIcon />
         </a>
     )}
     </div>
