@@ -15,7 +15,7 @@ const about = {
     }
 }
 
-const projects = [
+const project = [
    
     {
         name: 'BrualNotes', 
@@ -60,4 +60,4 @@ const contact = {
 
 }
 
-export { header, about, contact }
+export { header, about, contact, project }
