@@ -61,7 +61,21 @@ const projects = [
         sourceCode: '',
         livePreview: 'https://www.mayukhawellness.com/'
             
-    }    
+    },
+]
+
+const skills = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Git',
+    'Jest',
+    'Node.js',
+    'Express',
+    'Figma',
+    'Illustrator',
+    'CMS'
 ]
 
 const contact = {
