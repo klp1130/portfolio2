@@ -5,12 +5,12 @@ import MenuIcon from '@mui/icons-material/Menu'
 import './Navbar.css'
 
 const Navbar = () => {
-    const [ showNavList, setShowNavList ] = useState(false)
+    const [showNavList, setShowNavList] = useState(false)
 
     const toggleNavList = () => setShowNavList(!showNavList)
 
     return (
-        <nav>
+        <nav className='center nav'>
             <ul
                 style={{ display: showNavList ? 'flex' : null }}
                 className='nav__list'
@@ -20,6 +20,7 @@ const Navbar = () => {
                         <a
                             href='#projects'
                             onClick={toggleNavList}
+                            className='link link--nav'
                         >
                             Projects
                         </a>
@@ -31,6 +32,7 @@ const Navbar = () => {
                         <a
                             href='#skills'
                             onClick={toggleNavList}
+                            className='link link--nav'
                         >
                             skills
                         </a>
@@ -42,6 +44,7 @@ const Navbar = () => {
                         <a
                             href='#contact'
                             onClick={toggleNavList}
+                            className='link link--nav'
                         >
                             contact
                         </a>
@@ -52,9 +55,8 @@ const Navbar = () => {
             <button
                 type='button'
                 onClick={toggleNavList}
-                aria-label='toggle navigation'
-                className='nav__hamburger'
-            >
+                className='btn btn--icon nav__hamburger'
+                >
                 {showNavList ? <CloseIcon /> : <MenuIcon />}
             </button>
         </nav>
