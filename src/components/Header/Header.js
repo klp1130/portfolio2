@@ -1,11 +1,9 @@
 import { header } from '../../portfolio'
-//import Navbar from '../Navbar/Navbar'
-//import './Header.css'
-
+import Navbar from '../Navbar/Navbar'
+import './Header.css'
 
 const Header = () => {
     const { homepage, title } = header
-
 
     return (
         <header>
@@ -14,7 +12,7 @@ const Header = () => {
                 (<a href={homepage}>{title}</a>) :
                 (title)}
             </h3>
-
+            <Navbar />
         </header>
     )
 }
