@@ -37,7 +37,7 @@ const About = () => {
                 </a>
             )}
 
-            {social && (   
+            {social.linkedin && (   
                 <a
                   href={social.linkedin}
                   className='link link--icon'

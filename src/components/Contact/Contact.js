@@ -6,7 +6,7 @@ const Contact = () => {
 
     return (
         <section id='contact'>
-            <h2>Contact</h2>
+            <h2 className='section__title'>Contact</h2>
             <a href={`mailto:${contact.email}`}>
                 <span type='button'>
                     Email me
