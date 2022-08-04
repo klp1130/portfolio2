@@ -71,6 +71,7 @@ const skills = [
     'React',
     'Git',
     'Jest',
+    'Material UI',
     'Node.js',
     'Express',
     'Figma',
@@ -83,4 +84,4 @@ const contact = {
 
 }
 
-export { header, about, contact, projects }
+export { header, about, contact, skills, projects }
