@@ -6,6 +6,7 @@ import Contact from './components/Contact/Contact'
 import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+import './App.css'
 
 const App = () => {
 
