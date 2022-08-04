@@ -1,4 +1,4 @@
-import GitHubIcon from '@mui/icons-material/GitHub';
+import GitHubIcon from '@mui/icons-material/GitHub'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { about } from '../../portfolio'
 import './About.css'
@@ -8,7 +8,7 @@ const About = () => {
 
     return(
         <div>
-            { name && (
+            {name && (
                 <h1>
                     Hi, I am <span className='about__name'>{name}.</span>
                 </h1>
@@ -28,13 +28,14 @@ const About = () => {
 
             {social && (  
                 <> 
+                {social.github && (
                 <a
                   href={social.github}
                   className='link link--icon'
                 >
                   <GitHubIcon />
                 </a>
-            )
+            )}
 
             {social && (   
                 <a

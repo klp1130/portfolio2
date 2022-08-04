@@ -1,5 +1,6 @@
 import uniqid from 'uniqid'
 import { skills } from '../../portfolio'
+import './Skills.css'
 
 const Skills = () => {
     if (!skills.length) return null
@@ -7,9 +8,9 @@ const Skills = () => {
     return (
         <section id='skills'>
             <h2>Skills</h2>
-            <ul>
+            <ul className='skills__list'>
                 {skills.map((skill) =>(
-                    <li key={uniqid()}>
+                    <li key={uniqid()} className='skills__list-item'>
                     {skill}
                     </li>
                 ))}
