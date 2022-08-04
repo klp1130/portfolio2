@@ -27,6 +27,15 @@ const projects = [
             
     },
     {
+        name: 'Portfolio', 
+        description:
+            'My personal portfolio built in React',
+        stack: ['React'],
+        sourceCode: 'https://github.com/klp1130/portfolio2',
+        livePreview: ''
+            
+    },
+    {
         name: 'Stripe Navigation', 
         description:
             'This project explores the floating div nature of the stripe.com navigation bar',
