@@ -2,7 +2,7 @@
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
     color: #555;
-    background-color: var(--clr-bg);
+    background-color: #fcfcfc;
 }
 
 .light {
@@ -132,7 +132,7 @@ main {
   
 .btn--plain {
     text-transform: initial;
-    background-color: #444;
+    background-color: #fcfcfc;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
     border: 0;
 }
