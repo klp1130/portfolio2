@@ -2,10 +2,11 @@
     position: fixed;
     bottom: 2em;
     right: 4em;
+    color: #01ec64;
     background-color: transparent;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
     .scroll-top {
         display: none;
     }
