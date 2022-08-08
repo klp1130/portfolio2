@@ -2,12 +2,14 @@
     padding: 3em 0;
     margin-top: 4em;
     text-align: center;
+    background-color: #061622;
+    
 }
 
 .footer_link {
     font-size: 0.9em;
     font-weight: 600;
-    color: var(--clr-fg);
+    color: #fff;
 }
 
 @media (max-width: 600px) {

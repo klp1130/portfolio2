@@ -4,7 +4,7 @@
   }
 
 .about__name {
-    color: #2978b5;
+    color: var(--green);
 }
 
 .about__role {
