@@ -11,7 +11,7 @@ import './App.css'
 const App = () => {
 
   return (
-    <div>
+    <div id="top" className='app light'>
         <Header />
       <main>
         <About />

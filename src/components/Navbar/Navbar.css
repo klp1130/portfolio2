@@ -1,6 +1,7 @@
 .nav__list {
     margin-right: 1.5em;
     display: flex;
+    background-color: #fcfcfc;
 }
 
 .nav__list-item {
