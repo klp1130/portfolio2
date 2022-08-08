@@ -93,6 +93,7 @@ main {
 .btn {
     display: block;
     cursor: pointer;
+    border-radius: 4px;
     padding: 0.8em 1.4em;
     font-weight: 500;
     font-size: 0.9rem;
