@@ -29,8 +29,8 @@ const projects = [
     {
         name: 'Portfolio', 
         description:
-            'My personal portfolio built in React',
-        stack: ['React'],
+            'My personal portfolio site built with React, CSS and Material UI.',
+        stack: ['React', 'CSS', 'Material UI'],
         sourceCode: 'https://github.com/klp1130/portfolio2',
         livePreview: ''
             
