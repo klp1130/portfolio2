@@ -20,9 +20,10 @@
 }
 
 .link {
-    color: var(--green);
+    color: var(--slate);
     padding: 0 0 0.3em 0;
     position: relative;
+    font-style: normal;
 }
 
 .header {
@@ -53,14 +54,14 @@ main {
   
 
 .link {
-    color: var(--green);
+    color: var((--green));
     padding: 0 0 0.3em 0;
     position: relative;
 }
   
 
 .link:hover {
-    color: var(--green);
+    color: var(--mediumgreen);
 }
   
 
@@ -133,9 +134,9 @@ main {
   
 .btn--plain {
     text-transform: initial;
+    border-radius: 4px;
     background-color: #ffffff;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-    border: 0;
+    box-shadow: rgba(50, 50, 192, 0.2) 0px 2px 7px 0px;
 }
   
 .btn--plain:hover {
