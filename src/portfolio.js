@@ -32,7 +32,7 @@ const projects = [
             'My personal portfolio site built with React, CSS and Material UI.',
         stack: ['React', 'CSS', 'Material UI'],
         sourceCode: 'https://github.com/klp1130/portfolio2',
-        livePreview: 'https://github.com/klp1130/portfolio2'
+        livePreview: 'http://www.keenanleepeters.com/'
             
     },
     {
