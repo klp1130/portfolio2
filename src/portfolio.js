@@ -34,14 +34,13 @@ const projects = [
         sourceCode: 'https://github.com/klp1130/portfolio2',
         livePreview: 'http://www.keenanleepeters.com/'
             
-    },
-    {
-        name: 'Stripe Navigation', 
+    },  {
+        name: 'Bloglist Backend', 
         description:
-            'This project explores the floating div nature of the stripe.com navigation bar',
-        stack: ['JavaScript'],
-        sourceCode: 'https://github.com/klp1130/Stripe_Nav',
-        livePreview: 'https://klp1130.github.io/Stripe_Nav/'
+            'The backend for a bloglist app built with Node.js, and Express. The projects uses Token authentication and all unit and integration tests are written with Jest',
+        stack: ['Node.js', 'Express', 'Jest', 'Async/await',],
+        sourceCode: 'https://github.com/klp1130/bloglist',
+        livePreview: ''
             
     },
     {
@@ -62,6 +61,15 @@ const projects = [
         livePreview: 'https://www.mayukhawellness.com/'
             
     },
+    {
+        name: 'Phonebook', 
+        description:
+            'A full stack phonebook application built with React, Express and Node.js',
+        stack: ['React', 'Node.js', 'Express'],
+        sourceCode: 'https://github.com/klp1130/Full-Stack-Open-Part-3',
+        livePreview: 'https://secret-plains-99645.herokuapp.com/'
+            
+    },
 ]
 
 const skills = [
@@ -76,7 +84,8 @@ const skills = [
     'Express',
     'Figma',
     'Illustrator',
-    'CMS'
+    'CMS',
+    'Async/await',
 ]
 
 const contact = {
