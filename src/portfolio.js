@@ -18,6 +18,14 @@ const about = {
 const projects = [
    
     {
+        name: 'ArcanaLife Employee Dashboard UI', 
+        description:
+            'ArcanaLife inc needed a single place where all of the tasks and tools for running the business could be easily located and used. With this dashboard ArcanaLife and its employees can improve the performance of the company, utilize their data more efficiently and generate better ROI. This project was built with React.',
+        stack: ['React','Tailwind',],
+        sourceCode: 'https://github.com/klp1130/dashboard',
+        livePreview: 'https://6303997e474de00e6ab0437c--admirable-puppy-c1b1a0.netlify.app/'
+            
+    },{
         name: 'BrualNotes', 
         description:
             'I took some established speech recognition code written in vanilla Javascript and expanded its functionality by refactoring it into a react app, setting up a JSON database for storage of the notes and added styling. The style is influenced by the current design trend of neubrutalism (hence brutal notes). This style is used by companies like Gumroad.com, Figma and MongoDB.',
@@ -86,6 +94,7 @@ const skills = [
     'Illustrator',
     'CMS',
     'Async/await',
+    'Tailwind',
 ]
 
 const contact = {
